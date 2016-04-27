@@ -1,0 +1,141 @@
+Determining if the include file conio.h exists failed with the following output:
+Change Dir: /Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_9953b/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_9953b.dir/build.make CMakeFiles/cmTC_9953b.dir/build
+gmake[1]: Entering directory '/Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9953b.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_9953b.dir/CheckIncludeFile.c.o   -c /Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'conio.h' file not found
+#include <conio.h>
+         ^
+1 error generated.
+CMakeFiles/cmTC_9953b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9953b.dir/CheckIncludeFile.c.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_9953b.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9953b/fast' failed
+gmake: *** [cmTC_9953b/fast] Error 2
+
+
+Determining if the include file rpc/xdr.h exists failed with the following output:
+Change Dir: /Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_ac6f9/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_ac6f9.dir/build.make CMakeFiles/cmTC_ac6f9.dir/build
+gmake[1]: Entering directory '/Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac6f9.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_ac6f9.dir/CheckIncludeFile.c.o   -c /Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/usr/include/rpc/xdr.h:126:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/usr/include/rpc/xdr.h:126:10: error: function cannot return function type 'int (struct __rpc_xdr *, int *)'
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                        ^
+/usr/include/rpc/xdr.h:128:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_putlong)(struct __rpc_xdr *, const int *);
+                ^
+/usr/include/rpc/xdr.h:128:10: error: function cannot return function type 'int (struct __rpc_xdr *, const int *)'
+                bool_t  (*x_putlong)(struct __rpc_xdr *, const int *);
+                        ^
+/usr/include/rpc/xdr.h:128:3: error: duplicate member 'bool_t'
+                bool_t  (*x_putlong)(struct __rpc_xdr *, const int *);
+                ^
+/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/usr/include/rpc/xdr.h:136:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_getbytes)(struct __rpc_xdr *, char *, unsigned int);
+                ^
+/usr/include/rpc/xdr.h:136:10: error: function cannot return function type 'int (struct __rpc_xdr *, char *, unsigned int)'
+                bool_t  (*x_getbytes)(struct __rpc_xdr *, char *, unsigned int);
+                        ^
+/usr/include/rpc/xdr.h:136:3: error: duplicate member 'bool_t'
+                bool_t  (*x_getbytes)(struct __rpc_xdr *, char *, unsigned int);
+                ^
+/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/usr/include/rpc/xdr.h:138:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_putbytes)(struct __rpc_xdr *, const char *, unsigned int);
+                ^
+/usr/include/rpc/xdr.h:138:10: error: function cannot return function type 'int (struct __rpc_xdr *, const char *, unsigned int)'
+                bool_t  (*x_putbytes)(struct __rpc_xdr *, const char *, unsigned int);
+                        ^
+/usr/include/rpc/xdr.h:138:3: error: duplicate member 'bool_t'
+                bool_t  (*x_putbytes)(struct __rpc_xdr *, const char *, unsigned int);
+                ^
+/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/usr/include/rpc/xdr.h:142:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_setpostn)(struct __rpc_xdr *, unsigned int);
+                ^
+/usr/include/rpc/xdr.h:142:11: error: function cannot return function type 'int (struct __rpc_xdr *, unsigned int)'
+                bool_t  (*x_setpostn)(struct __rpc_xdr *, unsigned int);
+                        ^
+/usr/include/rpc/xdr.h:142:3: error: duplicate member 'bool_t'
+                bool_t  (*x_setpostn)(struct __rpc_xdr *, unsigned int);
+                ^
+/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/usr/include/rpc/xdr.h:144:3: error: unknown type name 'int32_t'
+                int32_t *(*x_inline)(struct __rpc_xdr *, unsigned int);
+                ^
+/usr/include/rpc/xdr.h:147:3: error: type name requires a specifier or qualifier
+                bool_t  (*x_control)(struct __rpc_xdr *, int, void *);
+                ^
+/usr/include/rpc/xdr.h:147:10: error: function cannot return function type 'int (struct __rpc_xdr *, int, void *)'
+                bool_t  (*x_control)(struct __rpc_xdr *, int, void *);
+                        ^
+/usr/include/rpc/xdr.h:147:3: error: duplicate member 'bool_t'
+                bool_t  (*x_control)(struct __rpc_xdr *, int, void *);
+                ^
+/usr/include/rpc/xdr.h:126:3: note: previous declaration is here
+                bool_t  (*x_getlong)(struct __rpc_xdr *, int *);
+                ^
+/usr/include/rpc/xdr.h:191:16: error: function cannot return function type 'int (XDR *, void *, unsigned int)'
+typedef bool_t (*xdrproc_t)(XDR *, void *, unsigned int);
+               ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+CMakeFiles/cmTC_ac6f9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ac6f9.dir/CheckIncludeFile.c.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_ac6f9.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ac6f9/fast' failed
+gmake: *** [cmTC_ac6f9/fast] Error 2
+
+
+Performing C SOURCE FILE Test SCANDIR_NEEDS_CONST failed with the following output:
+Change Dir: /Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_0b0cf/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_0b0cf.dir/build.make CMakeFiles/cmTC_0b0cf.dir/build
+gmake[1]: Entering directory '/Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b0cf.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DSCANDIR_NEEDS_CONST -Werror   -o CMakeFiles/cmTC_0b0cf.dir/src.c.o   -c /Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp/src.c
+/Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp/src.c:7:46: error: incompatible pointer types passing 'int (struct dirent *)' to parameter of type 'int (*)(const struct dirent *)' [-Werror,-Wincompatible-pointer-types]
+     int count = scandir ("./", &entries_pp, matchFiles, 0);
+                                             ^~~~~~~~~~
+/usr/include/dirent.h:147:11: note: passing argument to parameter here
+    int (*)(const struct dirent *), int (*)(const struct dirent **, const struct dirent **)) __DARWIN_INODE64(scandir);
+          ^
+1 error generated.
+CMakeFiles/cmTC_0b0cf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0b0cf.dir/src.c.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_0b0cf.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/Users/ugo/src/openbabel-2.3.2/tmpbuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0b0cf/fast' failed
+gmake: *** [cmTC_0b0cf/fast] Error 2
+
+Source file was:
+
+   #include <sys/types.h>
+   #include <dirent.h>
+    int main(){
+     extern int matchFiles (struct dirent *entry_p);
+     struct dirent **entries_pp;
+     int count = scandir ("./", &entries_pp, matchFiles, 0);
+     return count;
+    }
+   

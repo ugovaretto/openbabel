@@ -27,6 +27,7 @@ GNU General Public License for more details.
 #include <locale.h>
 #endif
 
+#include <locale.h>
 namespace OpenBabel
 {
   class OBLocalePrivate {

@@ -19,7 +19,7 @@ GNU General Public License for more details.
 #ifndef OB_MOLECULEFORMAT_H
 #define OB_MOLECULEFORMAT_H
 
-#ifdef _MSC_VER
+/*#ifdef _MSC_VER
   #include <hash_map>
 #endif
 
@@ -27,7 +27,9 @@ GNU General Public License for more details.
   #include <tr1/unordered_map>
 #elif defined(USE_BOOST)
   #include <boost/tr1/unordered_map.hpp>
-#endif
+#endif*/
+
+#include <unordered_map>
 
 #include <typeinfo>
 

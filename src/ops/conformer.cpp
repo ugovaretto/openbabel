@@ -80,8 +80,8 @@ namespace OpenBabel
   bool getInteger(const std::string &str, int &value)
   {
     std::istringstream iss(str);
-    bool ret = iss >> value;
-    return ret;
+    iss >> value;
+    return true;
   }
 
   //////////////////////////////////////////////////////////

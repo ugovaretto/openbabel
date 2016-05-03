@@ -24,7 +24,7 @@ GNU General Public License for more details.
   #if __GNUC__ == 4  //&& __GNUC_MINOR__ < 3  removed at the suggestion of Konstantin Tokarev
     #include <tr1/memory>
   #endif
-  using std::tr1::shared_ptr;
+  using std::shared_ptr;
 #endif
 
 #endif // OB_SHARED_PTR_H
